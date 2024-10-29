@@ -13,7 +13,7 @@ import bodyParser from "body-parser"
 const app = express()
 dotenv.config()
 const corsOptions = {
-    origin: ['https://v-tube-sharing-aap1-frontend.vercel.app/'],
+    origin: ['https://v-tube-sharing-aap1-frontend.vercel.app'],
     credentials: true, 
 };
 
